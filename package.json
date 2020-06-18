@@ -1,0 +1,22 @@
+{
+  "name": "upload-files-multer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mo. Ilyas Uploader",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "nexe server.js"
+  },
+  "author": "bezkoder",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "resolve-url": "^0.2.1",
+    "urix": "^0.1.0"
+  },
+  "devDependencies": {
+    "nexe": "^3.3.2"
+  }
+}
