@@ -45,11 +45,11 @@ function fileFilter (req, file, cb) {
   var exists = fs.existsSync(ofile);
   if (exists)
   { 
-    var esize = fs.statSync(ofile);
-   if (req.files[0].fileSize == esize["size"])
+   // var esize = fs.statSync(ofile);
+   //if (req.files[0].fileSize == esize["size"])
     cb(null, false);
-    else
-    cb(null, true);
+   // else
+  //  cb(null, true);
   }
   else
   cb(null, true);
